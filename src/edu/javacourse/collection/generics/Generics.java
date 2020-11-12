@@ -28,21 +28,21 @@ public class Generics
 //        System.out.println(example2.getInstance());
 //        System.out.println("/------------------------------------------/");
 
-        List<BaseObject> list5 = new ArrayList<>();
-        List<User> list6 = new ArrayList<>();
-        List<ChildObject> list7 = new ArrayList<>();
-
-        example1(list5);
-        example1(list6);
-        example1(list7);
-
-        example2(list5);
-        example2(list6);
-        example2(list7);
-
-        example3(list5);
-        example3(list6);
-        example3(list7);
+//        List<BaseObject> list5 = new ArrayList<>();
+//        List<User> list6 = new ArrayList<>();
+//        List<ChildObject> list7 = new ArrayList<>();
+//
+//        example1(list5);
+//        example1(list6);
+//        example1(list7);
+//
+//        example2(list5);
+//        example2(list6);
+//        example2(list7);
+//
+//        example3(list5);
+//        example3(list6);
+//        example3(list7);
     }
 
     public static void example1(List<?> list) {
