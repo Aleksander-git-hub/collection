@@ -7,8 +7,8 @@ import java.util.TreeMap;
 public class Example2
 {
     public static void main(String[] args) {
-        User user1 = new User("Jhon", 25, 4000);
-        User user2 = new User("Mark", 25, 3200);
+        User user1 = new User("Jhon", 25, 3200);
+        User user2 = new User("Mark", 24, 3200);
 
         Comparator<User> userComparator = new UserComparator();
         Comparator<User> ageComparator = new UserAgeComparator();
